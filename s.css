@@ -1,0 +1,59 @@
+.my {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Flex 아이템이 줄 바꿈을 할 수 있도록 설정 */
+}
+
+.TextBox1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%; 
+    margin-right: 3%;
+    width: 70%;    
+}
+
+.TextBox2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%; 
+    margin-right: 3%;
+    width: 100%; 
+}
+
+
+.my img {
+    background-color: gray;
+    margin: 2%; 
+    margin-left: 4%;
+}
+
+.myT1, .myT2 {
+    margin-left: 2%; 
+    background-color: azure;
+    padding: 2%;
+    width: 50%; /* 박스들이 나란히 있을 때 각 박스의 너비 설정 */
+    height: auto;
+    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+}
+
+.myT3, .myT4, .myT5 {
+    margin-left: 2%; 
+    background-color: azure;
+    padding: 2%;
+    width: 100%; /* 박스들이 나란히 있을 때 각 박스의 너비 설정 */
+    height: auto;
+    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+}
+
+body {
+    font-family: 'Ownglyph_meetme-Rg';
+    background-color: rgb(255, 243, 245);
+}
+
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
