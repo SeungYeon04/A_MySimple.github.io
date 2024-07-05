@@ -1,0 +1,60 @@
+body {
+    font-family: 'Ownglyph_ryuttung-Rg';
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Ownglyph_ryuttung-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryuttung-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.projectLinkH3 {
+    text-decoration: none; /*밑줄없애기*/
+    color: black;
+}
+
+.projectH3 {
+    margin-bottom: 1%; 
+}
+
+.graytext {
+    color: rgb(147, 147, 147); 
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.skill, .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    float: left;
+    margin-right: 10px;
+}
+
+.skill p, .project p {
+    margin: 0;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
